@@ -28,7 +28,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     padding: 22px;
     color: white;
-    min-width: 375px;
+    flex: 0 1 430px;
 }
 .slider__body>*:not(:last-child), .slider__text>*:not(:last-child){
     margin: 0 0 20px 0;
@@ -48,6 +48,7 @@
 }
 .slider__subtitle {
     font-size: 18px;
+    line-height: calc(22/18*100%);
 }
 .main__slider .slider__button{
     transition: transform .3s ease;
@@ -63,7 +64,7 @@
     transform: scale(1.1);
 }
 .slider__icon{}
-.slider__controls, .slider__all-dots{
+.slider__controls{
     display: flex;
     align-items: center;
 }

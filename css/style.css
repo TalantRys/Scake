@@ -8,12 +8,12 @@
 @import url(cakes-main.css);
 
 :root {
-  --color-FFCDB2: var(#FFCDB2);
-  --color-FFB4A2: var(#FFB4A2);
-  --color-E5989B: var(#E5989B);
-  --color-B5838D: var(#B5838D);
-  --color-6D6875: var(#6D6875);
-  --color-3C4043: var(#3C4043);
+  --color-FFCDB2: #FFCDB2;
+  --color-FFB4A2: #FFB4A2;
+  --color-E5989B: #E5989B;
+  --color-B5838D: #B5838D;
+  --color-6D6875: #6D6875;
+  --color-3C4043: #3C4043;
 }
 
 *,
@@ -40,7 +40,7 @@ span {
 html,
 body {
   height: 100%;
-  background-color: #FFCDB2;
+  background-color: var(--color-FFCDB2);
 }
 
 .wrapper {

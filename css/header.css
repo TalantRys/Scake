@@ -1,5 +1,5 @@
 header{
-    background-color: #b5838d;
+    background-color: var(--color-B5838D);
     width: 100%;
     position: fixed;
     top: 0;
@@ -40,7 +40,7 @@ header{
     transition: color .3s ease;
 }
 .header__logo:hover, .header__link:hover{
-    color: #FFB4A2;
+    color: var(--color-FFB4A2);
 }
 .header__buttons {
     display: flex;
@@ -53,14 +53,16 @@ header{
 .header__button {
     display: flex;
     align-items: center;
-    font-size: 14px;
-    font-weight: 600;
     padding: 9px 13px;
     border-radius: 100px;
-    background: #FFB4A2;
-    color: #4b4949;
-    letter-spacing: 0.045em;
+    background: var(--color-FFB4A2);
+    color: var(--color-3C4043);
     transition: box-shadow .3s ease;
+}
+.header__button p{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.045em;
 }
 .header__button img{
     margin-right: 10px;

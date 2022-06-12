@@ -61,7 +61,6 @@ main.about-padding>*:last-child{
     object-position: right;
     object-fit: cover;
     z-index: -2;
-    
 }
 .about-contacts__block {
     flex: 0 1 370px;
