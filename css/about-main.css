@@ -1,35 +1,35 @@
-main.about-padding{
+main.about-page{
     padding: 220px 0 0 0;
 }
-main.about-padding>*:last-child{
+main.about-page>*:last-child{
     margin: 0 0 0 0;
 }
-.about-padding .main__about {
+.about-page .main__about {
 }
-.about-padding .about {
+.about-page .about {
 }
-.about-padding .about__container {
+.about-page .about__container {
     gap: 62px;
 }
-.about-padding .container {
+.about-page .container {
 }
-.about-padding .about__block {
+.about-page .about__block {
     padding: 0;
 }
-.about-padding .about__block>*:not(:last-child){
+.about-page .about__block>*:not(:last-child){
 }
-.about-padding .about__title {
+.about-page .about__title {
     text-align: left;
     margin: 0 0 30px 0;
 }
-.about-padding .about__text:not(:last-child) {
+.about-page .about__text:not(:last-child) {
     margin: 0 0 63px 0;
 }
-.about-padding .about__image {
+.about-page .about__image {
     flex: 0 0 663px;
     height: 455px;
 }
-.about-padding .about__image-one{
+.about-page .about__image-one{
     box-shadow: -8px 8px 20px 0px rgba(0, 0, 0, 0.45);
 }
 .about-contacts {
