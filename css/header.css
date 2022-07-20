@@ -25,7 +25,9 @@ header{
 .header__list {
     display: flex;
     list-style: none;
-    transform: translateX(20%);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .header__list li:not(:last-child){
     margin: 0px 20px 0 0;
@@ -79,6 +81,9 @@ header{
     width: 40px;
     height: 40px;
     display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .header__burger_close{
     -webkit-mask: url(../images/icons/close.svg) center / 100% no-repeat;
@@ -94,6 +99,7 @@ header{
 @media (max-width:926px) {
     .header__list{
         transform: none;
+        position: unset;
     }
     .header__button p{
         display: none;
